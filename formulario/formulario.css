@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: darkseagreen;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgb(45, 5, 246);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+footer{
+    background-color: rgb(61, 215, 215);
+    padding: 1em;
+}
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+header nav ul{
+    display: flex;
+    gap: 1em;
+}
+header nav ul li{
+    color: white;
+}
+header a i{
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+    }
+    .container {
+    max-width: 45%; /* Define el ancho máximo del contenedor */
+    margin: 10px auto; /* Centra el contenedor horizontalmente */
+    padding: 2em; /* Agrega un poco de espacio alrededor del formulario */
+    border: 2em; /* Agrega un borde al contenedor */
+    border-radius: 4em; /* Agrega bordes redondeados al contenedor */
+    background-color: cornflowerblue;
+    }
+    .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    }
+    label {
+    margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: 50%; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+    }
+    button {
+    width:30%;
+    background-color: rgb(10, 247, 172);
+    border-radius: 3em;
+    padding: 2em;
+    margin: 3px;/* Coloca estilos a tu botón */
+    }
+    button:hover {
+    background-color: #0056b3;
+    }
+    
