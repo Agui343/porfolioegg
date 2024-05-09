@@ -1,0 +1,261 @@
+.acerca-imagen{
+   width: 600px;
+   height: 400px;
+}
+.imagen1{
+    width: 300px;
+    height: 300px;
+}
+.imagen2{
+    width: 100%;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.seccion-1{
+    background-color: rgb(174, 201, 187);
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    }
+.acerca-de{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}    
+h2{
+    display: flex;
+    justify-content: center;
+}
+.parrafo-1{
+    display: flex;
+    justify-content: center;
+}
+.parrafo-2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.seccion-2{
+    width: 100%;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgb(45, 5, 246);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+footer{
+    background-color: rgb(61, 215, 215);
+    padding: 1em;
+}
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+header nav ul{
+    display: flex;
+    gap: 1em;
+}
+header nav ul li{
+    color: white;
+}
+header a i{
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+h3{
+    color: darkblue;
+}
+.Red-social{
+    color: rgb(20, 20, 20);
+}
+.menu{
+    color: rgb(19, 19, 19);
+}
+.fa-solid {
+    color: red;
+}
+.seccion-3{
+    background-color: rgb(174, 201, 187);
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+.imagen-trabajo{
+    border-radius: 10px;
+    flex: none;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.Trabajos{
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 60px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.trabajos-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+.trabajos-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+
+    @media (max-width: 768px) {
+    header{
+        font-size: 40%;
+        background-color: blueviolet;
+
+        
+    }
+    /* 
+    .checkbtn{
+        display: block;
+      }
+      #encavezado ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(12, 12, 45);
+        text-align: center;
+    
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+      }
+      #check:checked ~ ul{
+        left: 0;
+        display: block;
+      }
+      #encavezado nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      #encavezado nav ul li a{
+        font-size: 20px;
+      }
+      */
+      .checkbtn{
+        display: block;
+        }
+        #encavezado ul {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        /* height: 300vh; */
+        background-color: rgb(224, 120, 16);
+        text-align: center;
+        top:111px;
+        left: 100%;
+        transition: all 0.6s;
+        }
+        #check:checked ~ ul {
+        left: 0;
+        display: block;
+        }
+        #encavezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        }
+        #encavezado nav ul li a {
+        font-size: 20px ;
+        }
+        
+    /*Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  }
+  /* Estilos para pantallas más pequeñas (hasta 768px) */
+
+  @media (max-width: 768px) {
+    .seccion-1{
+        flex-wrap: wrap;
+    }
+    /*Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+  }
+  
+  #btn-generar{
+    background-color: rgb(105 150 199);
+    width: 100%;
+  }
+  #footer{
+    background-color: black;
+  }
+  #frase{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
